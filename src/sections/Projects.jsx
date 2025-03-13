@@ -53,10 +53,10 @@ const Projects = () => {
                       }
                     </div>
 
-                    <a rel='noreferrer' className='flex items-center gap-2 cursor-pointer text-white-400' target='_blank' href={currentProject.href}>
+                    {/* <a rel='noreferrer' className='flex items-center gap-2 cursor-pointer text-white-400' target='_blank' href={currentProject.href}>
                         <p className='text-white'>Check Live Site</p>
                         <img src="/assets/arrow-up.png" className='w-3 h-3' alt="" />
-                    </a>
+                    </a> */}
                 </div>
 
                 <div className="flex justify-between items-center mt-7">

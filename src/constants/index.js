@@ -58,13 +58,13 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Enterprise Resource Planning System',
+      desc: 'A comprehensive ERP system that streamlines business operations, including inventory management, finance, HR, and supply chain management. It enhances efficiency and decision-making through integrated modules and real-time data processing.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+        'Developed using cutting-edge technologies, this ERP system ensures scalability and performance, enabling businesses to manage workflows seamlessly.',
+      href: '',
+      texture: '',
+      logo: '/assets/erp.png',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -72,36 +72,19 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight1.png',
       tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        { id: 1, name: 'Node.js', path: '/assets/node.png' },
+        { id: 2, name: 'PostgreSQL', path: 'assets/postgre.png' },
+       
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Alumni Management System SIH 2024',
+      desc: 'A robust alumni management platform designed for institutions to maintain connections with their alumni. It facilitates networking, event management, job postings, and mentorship opportunities.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+        'Built for scalability and security, this system ensures seamless interactions between alumni and their alma mater, fostering long-term engagement.',
+      href: '',
+      texture: '',
+      logo: '/assets/alumni.png',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -109,35 +92,19 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight2.png',
       tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        { id: 1, name: 'Node.js', path: '/assets/node.png' },
+        { id: 2, name: 'PostgreSQL', path: 'assets/postgre.png' },
+        { id: 3, name: 'Node Mailer', path: '/assets/nodemailer.png' },
+       
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Disease Detection System',
+      desc: 'An AI-powered system for early disease detection and diagnosis. It leverages machine learning to analyze symptoms, medical records, and test results, providing accurate predictions and insights for healthcare professionals.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-      texture: '/textures/project/project3.mp4',
+        'Utilizing advanced AI algorithms, this system enhances medical diagnostics and assists doctors in making data-driven decisions efficiently.',
+      href: '',
+      texture: '',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -148,35 +115,18 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight3.png',
       tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        { id: 1, name: 'Flask', path: '/assets/flask.png' },
+        { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+        { id: 3, name: 'MongoDB', path: '/assets/python.png' },
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'Online Chatting App',
+      desc: 'A real-time chat application that allows users to send text messages, share multimedia, and create group conversations with end-to-end encryption.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
+        'Leveraging WebSockets and a scalable backend, this chat app ensures smooth and secure communication with instant message delivery.',
+      href: '',
+      texture: '',
       logo: '/assets/project-logo4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
@@ -185,35 +135,19 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight4.png',
       tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        { id: 1, name: 'React.js', path: '/assets/react.svg' },
+        { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+        { id: 3, name: 'Node.js', path: '/assets/node.png' },
+        { id: 4, name: 'Socket.io', path: '/assets/mongo.png' },
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      title: 'Personal Portfolio',
+      desc: 'A sleek and interactive personal portfolio website showcasing projects, skills, and experiences with a modern UI/UX design.',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
+        'Built with the latest web technologies, this portfolio provides an engaging experience, highlighting professional accomplishments effectively.',
+      href: '',
+      texture: '',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
@@ -222,29 +156,14 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight5.png',
       tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        { id: 1, name: 'React.js', path: '/assets/react.svg' },
+        { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+        { id: 3, name: 'TypeScript', path: '/assets/three.png' },
+        { id: 4, name: 'Framer Motion', path: '/assets/mongo.png' },
       ],
     },
   ];
+
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
@@ -260,29 +179,38 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
+      name: 'Yhills',
+      pos: 'Full-Stack Developer Intern',
+      duration: 'Summer 2024',
+      title: "Completed a full-stack development internship, working on real-world projects with modern web technologies. Gained hands-on experience in building scalable applications and enhancing frontend and backend functionalities.",
+      icon: '/assets/yhills.png',
       animation: 'victory',
     },
     {
       id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
+      name: 'React Development',
+      pos: 'Frontend Development',
+      duration: '2023 - Present',
+      title: "Building web applications using React for over two years, developing dynamic user interfaces and integrating real-time functionalities. Skilled in optimizing performance, state management, and component-based architecture.",
+      icon: '/assets/react.svg',
       animation: 'clapping',
     },
     {
       id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
+      name: 'Three.js Development',
+      pos: '',
+      duration: 'Present',
+      title: "Expert in Three.js, creating immersive 3D web experiences and interactive visualizations. Skilled in WebGL, shaders, and rendering techniques to enhance user engagement.",
+      icon: '/assets/three.png',
       animation: 'salute',
     },
-  ];
+    {
+      id: 4,
+      name: 'Tailwind CSS',
+      pos: 'UI/UX',
+      duration: 'Present',
+      title: "Proficient in Tailwind CSS, designing modern, responsive, and highly optimized user interfaces. Focused on utility-first styling and performance-driven UI development.",
+      icon: '/assets/tailwindcss.png',
+      animation: 'wave',
+    },
+];

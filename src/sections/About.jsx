@@ -16,7 +16,7 @@ const About = () => {
             const isDayTime = hour >= 6 && hour < 18;
             setGlobeImage(isDayTime
                 ? "//unpkg.com/three-globe/example/img/earth-day.jpg"
-                : "//unpkg.com/three-globe/example/img/earth-day.jpg"
+                : "//unpkg.com/three-globe/example/img/earth-night.jpg"
             );
         };
 

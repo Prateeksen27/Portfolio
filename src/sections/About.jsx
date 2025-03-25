@@ -21,13 +21,14 @@ const About = () => {
         };
 
         updateGlobeImage();
-        const interval = setInterval(updateGlobeImage, 60000);
+        const interval = setInterval(updateGlobeImage, 300000); // Update every 5 minutes
+
         return () => clearInterval(interval);
     }, []);
 
     // Enable/Disable auto-rotate based on hover state
     useEffect(() => {
-        if (globeRef.current) {
+        if (globeRef.current?.controls()) {
             globeRef.current.controls().autoRotate = !hover;
             globeRef.current.controls().autoRotateSpeed = 0.5;
         }
@@ -61,6 +62,8 @@ const About = () => {
     return (
         <section id='about' className='c-space my-20'>
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
+                
+                {/* About Section */}
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
                         <img src="/assets/grid1.png" alt="Grid_1" className='w-full sm:h-[276px] h-fit object-contain' />
@@ -72,6 +75,8 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* Tech Stack */}
                 <div className='col-span-1 xl:row-span-3'>
                     <div className="grid-container">
                         <img src="/assets/grid2.png" alt="" className='text-center w-full sm:w-[276px] sm:h-[276px] h-fit object-contain' />
@@ -83,6 +88,8 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* Globe Section */}
                 <div className='col-span-1 xl:row-span-4'>
                     <div className="grid-container">
                         <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
@@ -94,7 +101,7 @@ const About = () => {
                                 backgroundImageOpacity={0.5}
                                 showAtmosphere
                                 showGraticules
-                                globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
+                                globeImageUrl={globeImage}
                                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                                 hexPolygonsData={locationData}
                                 hexPolygonResolution={3}
@@ -107,19 +114,20 @@ const About = () => {
                                 pointLabel={({ text }) => `<div class="tooltip">${text}</div>`}
                                 onPointHover={p => setHover(!!p)} // Set hover state dynamically
                             />
-
                         </div>
                         <div>
                             <p className='grid-headtext'>I Work Remotely</p>
                             <p className="grid-subtext">
                                 I'm available to work remotely and have experience in remote development.
                                 <a href="#contact">
-                                <Button name='Contact Me' isBeam containerClass="w-full mt-10" />
+                                    <Button name='Contact Me' isBeam containerClass="w-full mt-10" />
                                 </a>
                             </p>
                         </div>
                     </div>
                 </div>
+
+                {/* Passion Section */}
                 <div className="xl:col-span-2 xl:row-span-3">
                     <div className="grid-container">
                         <img src="/assets/grid3.png" alt="" className='w-full sm:h-[276px] h-fit object-contain' />
@@ -127,20 +135,21 @@ const About = () => {
                             <p className="grid-headtext">My Passion for coding and Innovation.</p>
                             <p className="grid-subtext">
                                 I'm passionate about coding and innovation. I believe that technology has the power to transform lives and make a positive impact on the world.
-
+                                <br />
                                 Coding is not my profession but my passion.
-
                             </p>
                         </div>
                     </div>
                 </div>
+
+                {/* Contact Me Section */}
                 <div className='xl:col-span-1 xl:row-span-2'>
                     <div className="grid-container">
                         <img src="/assets/grid4.png" className='w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top' alt="" />
                         <div className="space-y-2">
                             <p className='grid-subtext text-center'>Contact Me</p>
-                            <div  onClick={handleCopyEmail}>
-                            <Button isBeam containerClass={"w-full mt-10"} name={"Copy Email"} />
+                            <div onClick={handleCopyEmail}>
+                                <Button isBeam containerClass="w-full mt-10" name="Copy Email" />
                             </div>
                         </div>
                     </div>

@@ -16,7 +16,7 @@ const About = () => {
             const isDayTime = hour >= 6 && hour < 18;
             setGlobeImage(isDayTime
                 ? "//unpkg.com/three-globe/example/img/earth-day.jpg"
-                : "//unpkg.com/three-globe/example/img/earth-night.jpg"
+                : "//unpkg.com/three-globe/example/img/earth-day.jpg"
             );
         };
 
@@ -94,7 +94,7 @@ const About = () => {
                                 backgroundImageOpacity={0.5}
                                 showAtmosphere
                                 showGraticules
-                                globeImageUrl={globeImage}
+                                globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
                                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                                 hexPolygonsData={locationData}
                                 hexPolygonResolution={3}

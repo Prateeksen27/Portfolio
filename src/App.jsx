@@ -18,6 +18,7 @@ const App = () => {
       <Projects />
       <Experience />
       <Contact />
+     
       <Footer />
     </main>
   )

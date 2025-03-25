@@ -162,6 +162,25 @@ export const navLinks = [
         { id: 4, name: 'Framer Motion', path: '/assets/mongo.png' },
       ],
     },
+    {
+      title:"Gemini Clone",
+      desc:'A clone of gemini using reactjs.',
+      subdesc:'Built using gemini api which takes the user prompt and returns the result efficiently.',
+      href:'https://gemini-iota-two.vercel.app/',
+      texture:'',
+      logo:'/assets/gemini.png',
+      logoStyle: {
+        backgroundColor: '#0E1F38',
+        border: '0.2px solid #0E2D58',
+        boxShadow: '0px 0px 60px 0px #2F67B64D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        { id: 1, name: 'React.js', path: '/assets/react.svg' },
+        { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+        { id: 3, name: 'Gemini API', path: '/assets/gemini1.png' },
+      ]
+    }
   ];
 
   
